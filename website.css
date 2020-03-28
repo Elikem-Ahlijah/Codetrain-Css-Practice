@@ -1,0 +1,171 @@
+body, html {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 100%;
+    background-color: #e7e4e4;
+    
+}
+
+.header{
+    
+    width: 102.3%;
+    /* border: 0.5px solid rgb(231, 230, 230);  */
+    height: 20vh;
+    background-color: rgba(126, 3, 34, 0.966);
+    padding: 10 0p;
+    
+    
+}
+
+.nav {
+    
+    display: flex; 
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(27, 27, 27, 0.767);
+    /* border-bottom: 0.5px solid rgb(53, 52, 52); */
+    padding-left: 30px;
+    
+    
+}
+
+.nav a {
+    color:#afacac;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px 10px 10px;
+    margin: 0px 10px;
+    border-left: 0.5px solid rgb(27, 27, 27, 0.767);
+    border-right: 0.5px solid rgb(27, 27, 27, 0.767);
+
+}
+
+.nav a:hover{
+    color: black;
+    background-color: grey;
+}
+/* The main flex container */
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+#row-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    /* border: 0.5px solid rgb(231, 230, 230); */
+    padding: 20px 20px;
+    background-color: rgba(66, 66, 66, 0.767);
+    color: #d4d1d1;
+    
+
+}
+/* Elements in flex row 1 */
+#photo-1 {
+    width: 80%;
+    height: 50vh;
+    /* border: 0.5px solid rgb(231, 230, 230); */
+    margin-bottom: 30px;
+    margin-left: 35px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#photo-1 img {
+    width: 100%;
+    height: 50vh;
+}
+
+.photo-2 {
+    width: 100%;
+    height:40vh;
+    /* border: 0.5px solid rgb(231, 230, 230); */
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+}
+
+.photo-2 img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+
+
+
+
+#row-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    /* border: 0.5px solid  rgb(231, 230, 230); */
+    padding: 20px 30px;
+    background-color: #e7e4e4;
+}
+
+#first {
+    height: 220px;
+}
+
+form {
+    background-color: #e7e4e4;
+}
+
+/* Elements in flex row 2 */
+
+.photo-3 {
+    width: 100%;
+    height:80vh;
+    /* border: 0.5px solid rgb(231, 230, 230); */
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
+
+}
+
+.photo-3 img {
+    width: 100%;
+    height:80vh;
+    border-radius: 5px;
+
+
+}
+
+img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+p {
+    line-height: 25px;
+}
+
+h1 {
+
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.footer {
+    
+    width: 100%;
+    /* border: 0.5px solid rgb(231, 230, 230); */
+    height: 20vh;
+    background-color: rgba(126, 3, 34, 0.966);
+    padding: 50 0;
+
+    
+    
+}
